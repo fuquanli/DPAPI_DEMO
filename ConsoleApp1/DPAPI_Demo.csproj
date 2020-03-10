@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AesHelper.cs" />
-    <Compile Include="DpapiHelper1.cs" />
+    <Compile Include="DpapiHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GTXXmlCrypt.cs" />
+    <Compile Include="TestXmlCrypt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

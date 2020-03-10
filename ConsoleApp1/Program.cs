@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Security.Cryptography;
 using System.Xml.Linq;
 
 namespace ConsoleApp1
@@ -41,9 +42,20 @@ namespace ConsoleApp1
 
 
             //TestAESEncryptDat();
-            TestAESDecryptDat();
+            //TestAESDecryptDat();
+
+            TestEncryptXML();
 
             Console.ReadKey();
+        }
+
+        static void TestEncryptXML()
+        {
+            RSA rsaKey = GTXXmlCrypt.CreateRSAAlgorithm("rsakey container");
+
+            GTXXmlCrypt.EncryptXmlFile("TestUserSetting.xml", "User", false, rsaKey, "");
+
+            //GTXXmlCrypt.DecryptXmlFile("TestUserSetting.xml", rsaKey, "");
         }
 
         static void TestConfig()
