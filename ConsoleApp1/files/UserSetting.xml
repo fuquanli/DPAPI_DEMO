@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+  <User>
+    <Email>lifuquan-fooww@fooww.com</Email>
+    <Password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK+EqvfhRrku760Cb3xcs4wAAAAACAAAAAAAQZgAAAAEAACAAAAD3d6GKr6kr/RFcYePTVOtTHsZEjAiUNRGVacoZH5UcyAAAAAAOgAAAAAIAACAAAADlFL7hJjNf230OUs/vpyQ58u/o04Yjy71rlwMj1mlRBiAAAAC9Bjl00evunItRQo37Ci3ZZ9t0jOlbT6mgv3QK9a/aQEAAAAARz58sC3dfCg+WWQW4HU54tT3Z+bVnGvWubPG98hCHlgqopEyFnZsVAwIVELq8vWSMP0cvXV+Ruf3tWIiPPAnc</Password>
+    <LoginIM>0</LoginIM>
+    <LoginByEmail>1</LoginByEmail>
+    <UserAlias></UserAlias>
+    <PKcity>197e6c8f-6d32-4a27-867a-0ac6e77ee729</PKcity>
+    <PKCompany>3478b0f5-ca53-4c07-a3b7-4977222c1619</PKCompany>
+    <PKUser>c1cfc8bc-61f2-4596-9f6f-d48c126113cc</PKUser>
+    <Role>系统管理员</Role>
+  </User>
+  <LastUser>lifuquan-fooww@fooww.com</LastUser>
+  <User>
+    <Email>app@fooww.com</Email>
+    <Password></Password>
+    <City>上海</City>
+    <LoginIM>true</LoginIM>
+  </User>
+  <PublishToWeb ShowWarning="true">false</PublishToWeb>
+  <PublishToMLSGroup ShowWarning="true">false</PublishToMLSGroup>
+</Setting>
